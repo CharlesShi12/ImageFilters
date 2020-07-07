@@ -1,6 +1,5 @@
-from image_utils import *
+from image import *
 import math
-# Charles Shi CSCI 1913: Daniel Kluver
 
 def create_init_list(k):
     """
