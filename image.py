@@ -1,9 +1,7 @@
 import random
-# Charles Shi CSCI 1913: Daniel Kluver
 
 # A variable defining "black" as a computer color.
 # This is used in load when making an empty list-of-lists for loading data into.
-# You probably don't need this, but what do I know?
 BLACK = (0, 0, 0)
 
 def read_ppm(filename):
@@ -69,11 +67,6 @@ def save_ppm(filename, image):
     print(width, height, file=out_file)
     print(255, file=out_file)
 
-    # From here, you need to write the image data.
-    # To write one pixel you simply need to output the red, green, and blue components
-    # in order with whitespace separating them. I would also recommend putting a newline after each pixed.
-    # you need to output the image row-by-row, so all of the first row, then all of the second etc.
-
     # Uses print commands to write the r g b values for the image to the file
     width, height = get_width_height(image)
     for i in range(0, height):
@@ -81,6 +74,5 @@ def save_ppm(filename, image):
             for k in range(0, 3):
                 print(image[j][i][k], end=' ', file=out_file)
             print('\n', file=out_file)
-
-    # Provided - gotta close the file, skipping this is bad ok?
+            
     out_file.close()
