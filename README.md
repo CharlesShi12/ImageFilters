@@ -9,7 +9,7 @@ This project relies on certain image formatting and the k-means machine learning
 Imagine you inputted an image full of purple, blue, and red. You set the k-means clustering to three which means you want three clusters of colors. The algorithm will begin with completely random colors that represent the centers of clusters of colors: let's say, yellow, pink, and green. Then it takes all of the pixels in the inputted image and matches it with the closest color cluster (in our case, still yellow, pink, or green). After averaging the pixels in the clusters, setting the new cluster center, and repeating the process over and over again until the clusters can't get any more accurate, the algorithm finally gets something along the lines of purple, blue, and red as the final color centers for the final cluster of colors. Then the algorithm takes each of the pixels in the original image and makes the pixel of a new image either purple, blue, or red depending on how close the original pixel was. Then it outputs the new image. So essentially, if you want k-means of three, then your final image will only consist of the three most core colors of your image.
 
 # Demonstration
-Video demonstration of this algorithm is linked here: https://drive.google.com/file/d/1HNuDzAPNlOetvbbbMU4DAZ36aqkKSqja/view?usp=sharing
+Video demonstration of this algorithm is linked here: https://youtu.be/hubdoUQ0QmY
 
 # What I Learned
 I learned the k-means machine learning algorithm: how to design it, when to implement it, and what it does. I also learned how to represent images in certain formats using different types of data representations. Finally, I became very familiar with some of Python's data structures and useful functions. 
