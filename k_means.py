@@ -63,7 +63,7 @@ def update_means_list(image, labels_list, means_list):
     return means_list
 
 def k_means(image, k):
-    # Performs the k_means computation on an image through image and k
+    # Performs the k_means computation on an image using the image and the inputted value, k
     means_list = create_init_list(k)
     test_labels_list = None
     label_list = update_assignments(image, means_list)
