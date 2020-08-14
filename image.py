@@ -1,7 +1,6 @@
 import random
 
 # A variable defining "black" as a computer color.
-# This is used in load when making an empty list-of-lists for loading data into.
 BLACK = (0, 0, 0)
 
 def read_ppm(filename):
