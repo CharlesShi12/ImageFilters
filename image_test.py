@@ -1,5 +1,5 @@
 from image import *
-
+# Testing the image.py
 if __name__ == "__main__":
     file = input("image file> ")
     image = read_ppm(file)
