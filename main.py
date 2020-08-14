@@ -1,6 +1,6 @@
 from image import *
 from k_means import *
-
+# Runs the entire project and gathers the user's inputs
 if __name__ == "__main__":
     file = input("Image file: ")
     k = int(input("K means: "))
