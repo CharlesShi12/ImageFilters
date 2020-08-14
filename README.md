@@ -14,7 +14,7 @@ Built with
 ## Features
 * Reduces an image down to a few core colors
 * Allows for users to chose the amount of colors the image is reduced to
-* Outputs a new .ppm image
+* Outputs a new and updated .ppm image
 
 ## Installations
 Run this command in your terminal:
